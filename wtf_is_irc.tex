@@ -56,13 +56,59 @@
 		}
 		\frame
 		{
-			\frametitle{Add The Chatroom}
+			\frametitle{Add the chatroom}
 			\begin{itemize}
 				\item{Buddies >> Add Chat}
 				\item{Account: yourNickName\makeatletter@\makeatother irc.freenode.net (IRC)}
 				\item{Channel: \#pumpingstationone}
 				\item{[X] Autojoin when account connects.}
 				\item{[X] Remain in chat after window is closed}
+			\end{itemize}
+		}
+	\subsection{PS1 Bots}
+		\frame
+		{
+			\frametitle{What is a bot}
+			An IRC bot is a program that connects to the
+			chatroom as though it were a user.
+
+			IRC bots typically wait until the see a command
+			from a user, usually starting with a !
+		}
+		\frame
+		{
+			\frametitle{Spacemon}
+			\begin{itemize}
+				\item{Hooked into sensors around ps1}
+				\item{Commands:}
+				\begin{itemize}
+					\item{!space}
+					\item{!light}
+				\end{itemize}
+			\end{itemize}
+		}
+		\frame
+		{
+			\frametitle{Peoplemon}
+			\begin{itemize}
+				\item{Compares IRC Users host to the PS1
+					internal network}
+				\item{Commands:}
+				\begin{itemize}
+					\item{!people}
+				\end{itemize}
+			\end{itemize}
+		}
+		\frame
+		{
+			\frametitle{Chillmon}
+			\begin{itemize}
+				\item{Hooked into temperature sensors related
+					to beer church}
+				\item{Commands:}
+				\begin{itemize}
+					\item{!temp}
+				\end{itemize}
 			\end{itemize}
 		}
 \end{document}
