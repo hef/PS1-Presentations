@@ -1,0 +1,32 @@
+git
+version control
+
+why (shortrun)?
+oops, it doesn't work anymore, what did I change?
+
+why (longrun)
+oops, it doesn't work anymore, what did that other developer change?
+
+
+how?
+
+install git
+msysgit
+brew install git
+pacman install git
+apt-get instal git-core
+
+git init .
+
+git status
+(shows that state of the git repo)
+
+git add myscript.py
+git commit
+
+more info
+
+https://help.github.com/
+-createing repos
+-forking repos
+-collaborating
