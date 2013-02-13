@@ -30,4 +30,7 @@
 *.vrb
 *.xdy
 *.tdo
+*.fls
+*.pdf
 *.un~
+.sconsign.dblite
